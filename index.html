@@ -10,22 +10,34 @@
     <section class="hero is-primary is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">Election Form </h1>
+          <h1 class="title">Data Entry Form</h1>
         </div>
       </div>
     </section>
     <form id="form" class="container m-4 pl-4" method="POST">
       <div class="field">
-        <label class="label">Nama</label>
+        <label class="label">Nama Lengkap</label>
         <div class="control">
           <input
             class="input"
             type="text"
-            placeholder="Your Client Name"
+            placeholder="Nama Lengkap"
             name="Client Name"
           />
         </div>
       </div>
+
+      <!-- <div class="field">
+        <label class="label">Last Name</label>
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            placeholder="Your Last Name"
+            name="Last Name"
+          />
+        </div>
+      </div> -->
 
       <div class="field">
         <label class="label">Email</label>
@@ -45,7 +57,7 @@
           <input
             class="input"
             type="text"
-            placeholder="Masukan NIM "
+            placeholder="Masukan NIM"
             name="Password"
           />
         </div>
@@ -67,10 +79,10 @@
         <label class="label">Ketang</label>
         <div class="control">
           <label class="radio">
-            <input type="radio" name="Gender" value="Calon 1" /> Asyrofa Azi
+            <input type="radio" name="Gender" value="Calon 1" /> Asrofa Aziz
           </label>
           <label class="radio">
-            <input type="radio" name="Gender" value="Calon 2" /> M. Rizki
+            <input type="radio" name="Gender" value="Calon 2" /> M. Rizki 
           </label>
         </div>
       </div>
@@ -86,11 +98,11 @@
       </div>
 
       <div class="field">
-        <label class="label">Additional Information</label>
+        <label class="label">Nama Angkatan</label>
         <div class="control">
           <textarea
             class="textarea"
-            placeholder="Any additional information"
+            placeholder="Masukan Nama Angkatan "
             name="Notes"
           ></textarea>
         </div>
@@ -99,7 +111,7 @@
       <div class="field is-grouped">
         <div class="control">
           <button class="button is-primary" type="submit" id="submit-button">
-            Sign Up
+            Submit
           </button>
         </div>
         <div class="control">
